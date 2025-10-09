@@ -68,7 +68,7 @@ export default function Card({
         </div>
       )}
       <h2 id="period" className="text-[26px] font-medium text-white">{period}</h2>
-      <p id="price" className="text-[50px] font-semibold text-white">{price} ₽</p>
+      <p id="price" className="text-[50px] mt-[30px] font-semibold text-white">{price} ₽</p>
       <p id="full_price" className="text-[24px] font-normal line-through text-[#919191] leading-[120%] self-endtext-[24px] font-bold line-through text-white/60">{full_price} ₽</p>
       <p id="text" className="text-white/80">{text}</p>
     </div>
